@@ -41,7 +41,7 @@ const SignUp = () => {
             .then((userCredential) => {
                 const user = userCredential.user
                 console.log(user);
-                toast.success("✅ Alert: Signup successful! Redirecting to login...", {
+                toast.success("✅ Signup successful! Redirecting to login...", {
                     autoClose: 2000,
                 });
                 setTimeout(() => {
@@ -49,13 +49,18 @@ const SignUp = () => {
                 }, 2000);
             })
             .catch((error) => {
-                const errorCode = error.code;
-                const errorMessage = error.message
-                console.log("Firebase Error:", errorCode, errorMessage);
-                toast.error("❌ Error: Email already in use.", {
-                    autoClose: 3000,
-                });
-            })
+                console.error(error.code, error.message);
+                if (error.code === "auth/email-already-in-use") {
+                    toast.error(
+                        "This email is already registered. Please log in instead.", {
+                        autoClose: 2000,
+                    });
+                } else {
+                    toast.error(`Signp failed: ${error.message}`, {
+                        autoClose: 2000,
+                    });
+                }
+            });
     };
 
     return (
