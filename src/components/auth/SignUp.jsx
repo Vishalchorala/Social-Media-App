@@ -148,7 +148,7 @@ const SignUp = () => {
                         />
                         {passwordValue.length > 0 && (
                             <div
-                                className="absolute right-3 top-9 text-gray-600 cursor-pointer"
+                                className="absolute right-3 top-6 sm:top-9 text-gray-600 cursor-pointer"
                                 onClick={() => setShowPassword(!showPassword)}
                             >
                                 {showPassword ? <FaEyeSlash /> : <FaEye />}
@@ -175,7 +175,7 @@ const SignUp = () => {
                         />
                         {confirmPasswordValue.length > 0 && (
                             <div
-                                className="absolute right-3 top-9 text-gray-600 cursor-pointer"
+                                className="absolute right-3 top-6 sm:top-9 text-gray-600 cursor-pointer"
                                 onClick={() => setShowConfirmPassword(!showConfirmPassword)}
                             >
                                 {showConfirmPassword ? <FaEyeSlash /> : <FaEye />}
