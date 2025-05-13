@@ -1,12 +1,21 @@
-# React + Vite
+# Social Media App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern social media application built with React, Vite, Tailwind CSS, Firebase Authentication, and Framer Motion. This app allows users to post, like posts, comment, edit, and delete posts and comments. The app is fully responsive and offers a clean, dynamic UI for an optimal user experience.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Firebase Authentication**: Users can sign up, log in, and stay logged in until they explicitly log out.
+- **Post Creation**: Users can create and share posts.
+- **Like Posts**: Users can like posts to show support.
+- **Comment on Posts**: Users can add comments to posts and engage with other users.
+- **Edit & Delete Posts/Comments**: Users can edit or delete their own posts and comments.
+- **Responsive Design**: The app is fully responsive and adapts to all screen sizes.
+- **Animated UI**: Smooth animations and transitions using Framer Motion.
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (Vite for faster builds)
+- **Tailwind CSS** (for styling)
+- **Firebase** (Authentication)
+- **Framer Motion** (for animations)
+
