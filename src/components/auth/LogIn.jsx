@@ -5,7 +5,7 @@ import { yupResolver } from '@hookform/resolvers/yup';
 import { auth } from '../../firebase';
 import { NavLink, useNavigate } from 'react-router-dom';
 import { signInWithEmailAndPassword } from 'firebase/auth';
-import { toast } from 'react-toastify';
+import { toast } from 'react-toastify'; 
 import { paths } from '../../constant/Paths';
 import { FaEye, FaEyeSlash } from 'react-icons/fa';
 import { motion } from 'framer-motion';
