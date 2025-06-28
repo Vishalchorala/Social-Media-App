@@ -1,6 +1,6 @@
 # Social Media App
 
-A modern social media application built with React, Vite, Tailwind CSS, Firebase Authentication, and Framer Motion. This app allows users to post, like posts, comment, edit, and delete posts and comments. The app is fully responsive and offers a clean, dynamic UI for an optimal user experience.
+A modern social media application built with React Vite, Tailwind CSS, Firebase Authentication, and Framer Motion. This app allows users to post, like posts, comment, edit, and delete posts and comments. The app is fully responsive and offers a clean, dynamic UI for an optimal user experience.
 
 ## Features
 
